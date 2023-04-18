@@ -2,7 +2,7 @@ import LinearProgress from "@mui/material/LinearProgress";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
-function LinearProgressWithLabel(props: { value: string }) {
+function LinearProgressWithLabel(props: { value: number }) {
   return (
     <Box
       sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
@@ -32,16 +32,16 @@ function LinearProgressWithLabel(props: { value: string }) {
             color: "#fff",
             fontSize: "9px",
           }}
-        >{`${props.value}%`}</Typography>
+        >{`${props.value}.00%`}</Typography>
       </Box>
     </Box>
   );
 }
 
-export function ProgressBar({ difference }: { difference: string }) {
+export function ProgressBar({ difference }: { difference: number }) {
   return (
     <Box>
-      <LinearProgressWithLabel value={difference} />
+      <LinearProgressWithLabel value={Number(difference)} />
     </Box>
   );
 }

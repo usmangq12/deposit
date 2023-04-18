@@ -23,28 +23,28 @@ interface ModalProps {
 const deposits = [
   {
     title: "1st deposit",
-    difference: "31.00",
+    difference: 31,
     bonusAmountFirst: 700,
     bonusAmountSecnd: 1000.0,
     bgColor: "linear-gradient(171.43deg, #924FE7 6.25%, #6725BB 95.35%)",
   },
   {
     title: "2nd deposit",
-    difference: "0.00",
+    difference: 0,
     bonusAmountFirst: 0.0,
     bonusAmountSecnd: 4100.0,
     bgColor: " linear-gradient(171.43deg, #5681EE 6.25%, #163993 95.35%)",
   },
   {
     title: "3rd deposit",
-    difference: "0.00",
+    difference: 0,
     bonusAmountFirst: 0.0,
     bonusAmountSecnd: 0.0,
     bgColor: "linear-gradient(169.49deg, #1DC57C -3.51%, #145934 94.56%)",
   },
   {
     title: "4th deposit",
-    difference: "0.00",
+    difference: 0,
     bonusAmountFirst: 0.0,
     bonusAmountSecnd: 0.0,
     bgColor: "linear-gradient(351.88deg, #AA0508 3.93%, #F33A3D 92.07%)",
