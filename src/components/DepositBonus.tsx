@@ -38,7 +38,7 @@ export const DepositBonus = () => {
                     alt="Rocket Image"
                     height={50}
                     width={50}
-                    src="/assets/images/rocket.svg"
+                    src="/rocket.svg"
                     priority
                   />
                 </Grid>
